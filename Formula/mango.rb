@@ -5,21 +5,21 @@ class Mango < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/JulianLobos/mango/releases/download/v0.1.0/mango-aarch64-apple-darwin.tar.xz"
-      sha256 "675248f32aac1e0db593dad41189d324eadf9bd3f36c96354e3a0c23596025c9"
+      sha256 "ea01556def106159402fe0179d609f4a445b58911a6bc8baf7551c217251aede"
     end
     if Hardware::CPU.intel?
       url "https://github.com/JulianLobos/mango/releases/download/v0.1.0/mango-x86_64-apple-darwin.tar.xz"
-      sha256 "8eb5cc4fc74c2dee6374fe7397f997bbf7d28d608afbca7c74f43f0769759870"
+      sha256 "496008f1897d5062955430a1ea90897ad8e1173e9a3ec160e5fe36c201b4b00b"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/JulianLobos/mango/releases/download/v0.1.0/mango-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "df35f3d5bab0ea58024a8e671ef9300b6db1da0465aaa37ed77e0b66f6ed9b52"
+      sha256 "c19ab2dc422b3a6fb01afee6b0b252810fd98c2b024b2ece323ac2c3e076d0ff"
     end
     if Hardware::CPU.intel?
       url "https://github.com/JulianLobos/mango/releases/download/v0.1.0/mango-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "da4e4720325aa58333e77ee61d17d28e4b3542d174ff3f5d0ea8663280fc7dbd"
+      sha256 "82140fc364b0b299bc563f26897ff50d3a5d1ae734c34cdd0795d72bd21508d7"
     end
   end
 
