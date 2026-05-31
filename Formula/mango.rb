@@ -1,25 +1,25 @@
 class Mango < Formula
   desc "Personal Finance Assistant on the Command Line"
   homepage "https://github.com/JulianLobos/mango"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/JulianLobos/mango/releases/download/v0.1.0/mango-aarch64-apple-darwin.tar.xz"
-      sha256 "ea01556def106159402fe0179d609f4a445b58911a6bc8baf7551c217251aede"
+      url "https://github.com/JulianLobos/mango/releases/download/v0.1.1/mango-aarch64-apple-darwin.tar.xz"
+      sha256 "ba57f7b93499e230673f118a90eef69d94f2c539c9976989e957591014d3e56c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/JulianLobos/mango/releases/download/v0.1.0/mango-x86_64-apple-darwin.tar.xz"
-      sha256 "496008f1897d5062955430a1ea90897ad8e1173e9a3ec160e5fe36c201b4b00b"
+      url "https://github.com/JulianLobos/mango/releases/download/v0.1.1/mango-x86_64-apple-darwin.tar.xz"
+      sha256 "e83501ef5f7eb3b7c45bc4587dfe35d3e8711e0b2c6d5e58ea9182ca5422a34e"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/JulianLobos/mango/releases/download/v0.1.0/mango-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "c19ab2dc422b3a6fb01afee6b0b252810fd98c2b024b2ece323ac2c3e076d0ff"
+      url "https://github.com/JulianLobos/mango/releases/download/v0.1.1/mango-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "548b8e3b05183dc87027b33d58d8a368570b274ed4adf324b621c50d5aabed25"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/JulianLobos/mango/releases/download/v0.1.0/mango-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "82140fc364b0b299bc563f26897ff50d3a5d1ae734c34cdd0795d72bd21508d7"
+      url "https://github.com/JulianLobos/mango/releases/download/v0.1.1/mango-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "a1b73d1d16bc1438a517c4bce286d6fd8ec97a829726982c6ee1065659543954"
     end
   end
 
